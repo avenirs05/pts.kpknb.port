@@ -1,0 +1,600 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<meta charset="UTF-8">
+	<title>Выдаем займы под залог ПТС — КПК «Надежное Будущее»</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="icon" href="image/favicon.png" type="image/x-icon">
+	<link rel="stylesheet" href="css/reset.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.12.1/jquery-ui.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/noUiSlider/10.0.0/nouislider.min.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.4.0/animate.min.css">
+	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="css/responsive.css">
+	<link rel="stylesheet" href="css/lightbox.css">
+	<script src="https://qa.quinque.ru/website/?ka_hash=cf2ec33a163a01efc455c3bd2ff29a43" async></script>
+	<script>
+	  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+	  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+	  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+	  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+	  ga('create', 'UA-100323399-1', 'auto');
+	  ga('require', 'displayfeatures');
+	  ga('send', 'pageview');
+	</script>
+</head>
+<body>
+	<header id="start" class="fill-fixed">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-3 col-xs-7 logo-container">
+					<a href="#start"><img src="image/logo.png" class="logo"></a>
+				</div>
+				<button data-toggle="collapse" data-target="#nav1" class="navbar-toggle collapsed" aria-expanded="false">
+			<span class="sr-only">Toggle navigation</span>
+			<span class="icon-bar"></span>
+			<span class="icon-bar"></span>
+			<span class="icon-bar"></span>
+			</button>
+			<div class="navbar-collapse collapse" id="nav1">
+				<div class="col-md-7 col-xs-12">
+					<ul class="menu">
+						<li><a href="#href-title">Калькулятор</a></li>
+						<li><a href="#reviews">Отзывы</a></li>
+						<li><a href="#faq">Вопросы и ответы</a></li>
+						<li><a href="#map">Контакты</a></li>
+					</ul>
+				</div>
+				<div class="col-md-2 col-xs-12">
+					<div class="telephone"><a href="tel:+7 812 603-72-35">+7 812 603-72-35</a><a class="telephone-head" href="#modal-callback">Заказать звонок</a></div>
+				</div>
+				</div>
+			</div>
+		</div>
+	</header>
+	<section class="header-bg" id="header-bg">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-8 col-xs-12">
+					<div class="title-one title-size" id="href-title">Выдаем займы под залог ПТC<br>
+						<span> по всей России</span>
+					</div>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-md-6 col-xs-12">
+					<div class="title-two">Быстрые деньги наличными или на карту <br>Без справок и поручителей</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<section class="calculator-block" id="calculator-block">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-7 col-xs-12">
+					<div class="calculator-form" id="popup-calc-3">
+						<div class="calculator_line">
+							<div>
+								<h3>Стоимость автомобиля</h3>
+								<input type="text" class="calculator_input calculator_input-car-cost"  data-thousands=" " value="2 000 000"> <span class="value-span">руб.</span>
+							</div>
+							<div class="calculator_slider calculator_slider-car"></div>
+							<div class="calculator_slider-range">
+								<span class="calculator_slider-range-from car-from">100 000 руб.</span>
+								<span class="calculator_slider-range-to car-to">5 000 000 руб.</span>
+							</div>
+						</div>
+						<div class="calculator_line">
+							<div>
+								<h3>Сумма займа</h3>
+								<input id="summ" type="text" class="calculator_input calculator_input-max-cost" data-thousands=" " value="2 000 000"> <span class="value-span">руб.</span>
+							</div>
+							<div class="calculator_slider calculator_slider-max"></div>
+							<div class="calculator_slider-range">
+								<span class="calculator_slider-range-from cost-from">100 000 руб.</span>
+								<span class="calculator_slider-range-to cost-to">3 000 000 руб.</span>
+							</div>
+						</div>
+						<div class="calculator_line">
+							<div>
+								<h3>Срок займа</h3>
+								<input id="range-value" type="text" class="calculator_input calculator_input-period-cost" value="12"> <span class="value-span">мес.</span>
+							</div>
+							<div class="calculator_slider calculator_slider-period"></div>
+							<div class="calculator_slider-range">
+								<span class="calculator_slider-range-from range-from">2 мес.</span>
+								<span class="calculator_slider-range-to range-to">120 мес.</span>
+							</div>
+						</div>
+						<div class="calculator_summ">
+							<div class="calculator_summ-left">
+								<p>
+									Ежемесячный платеж
+								</p>
+								<span class="calculator_summ-val">&mdash;</span>
+							</div>
+							<div class="calculator_summ-right">
+								<a href="#modal-calc" data-toggle="modal" class="calculator_summ-link">Оставить заявку<br> <small>на получение займа</small></a>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-5 col-xs-12 padding-none">
+					<ul class="right-calc">
+						<li>Автомобиль остается у вас</li>
+						<li>Одобряем заявку независимо <br>от кредитной истории</li>
+						<li>Предлагаем до 90% стоимости автомобиля </li>
+						<li>Займ под любой вид транспорта</li>
+						<li>Для оформления займа требуются <br>только <abbr title="Паспорт транспортного средства"> ПТС</abbr>, <abbr title="Свидетельство о регистрации транспортного средства"> СТС</abbr> и паспорт</li>
+						<li>Без составления договора купли-продажи, без оформления доверенности</li>
+						<li>Ставка — от 14,9%</li>
+						<li>Без комиссий. Паевой и вступительный взносы по 50 руб.</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+	</section>
+	<section class="privileges" id="privileges" anim="fade">
+		<div class="container">
+			<div class="row">
+				<div class="col-xs-12">
+					<div class="title-big title-size">Выгоднее, чем у перекупщиков.<br>Надежнее, чем в автоломбарде</div>
+					<div class="title-small">Быстрые деньги наличными или на карту<br>Без справок и поручителей</div>
+				</div>
+			</div>
+			<div class="row relative">
+				<div class="bg-privilege"></div>
+				<div class="col-md-6 col-xs-12">
+					<div class="left-column-privileges">
+						<div class="block-privilege">
+							<div class="title-privilege">Действуем в соответствии <br>с Российским законодательством</div>
+							<div class="text-privilege">Оставьте заявку и ознакомьтесь с условиями договора.</div>
+						</div>
+						<div class="block-privilege">
+							<div class="title-privilege">Досрочное погашение займа <br>в любой период действия договора</div>
+							<div class="text-privilege">Вы можете погасить задолженность досрочно в любой момент.</div>
+						</div>
+						<div class="block-privilege">
+							<div class="title-privilege">Получение денег в три шага</div>
+							<div class="text-privilege">
+								<div class="line"><span>1.</span> Оценка автомобиля.</div>
+								<div class="line"><span>2.</span> Оформление договора и внесение транспортного средства в залоговый реестр у нотариуса.</div>
+								<div class="line"><span>3.</span> Получение средств.</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-5 col-md-offset-1 col-xs-12 form-bg">
+					<div class="form-privilege">
+						<form action="http://qa.quinque.ru/lead/post.php" method="post">
+							<input type="hidden" name="form_name" value="Расскажем о процедуре в деталях">
+							<div class="title-form-privilege">Расскажем <br>о процедуре в деталях</div>
+							<input name="profile_name" type="text" placeholder="Ваше имя">
+							<input name="profile_phone" type="tel" placeholder="+7 000 000-00-00">
+							<button type="submit">Позвоните мне</button>
+							<div class="note-terms"><label><input type="checkbox" checked autocomplete="off"> Нажимая на кнопку, я соглашаюсь с условиями</label> <a target="_blank" href="/terms.pdf">политики конфиденциальности</a>.</div>
+						</form>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<section class="sertificates" id="sertificates" anim="fade">
+		<div class="container">
+			<div class="row">
+				<div class="col-xs-12">
+					<div class="title-sert title-size">Кредитный кооператив «Надежное Будущее»</div>
+				</div>
+			</div>
+			<div class="row" style="display:none">
+				<div class="col-xs-12">
+					<div class="gallery-office">
+						<a href="image/office-5.jpg" data-lightbox="office"><img src="image/office-5.jpg"></a>
+						<a href="image/office-1.jpg" data-lightbox="office"><img src="image/office-1.jpg"></a>
+						<a href="image/office-2.jpg" data-lightbox="office"><img src="image/office-2.jpg"></a>
+						<a href="image/office-3.jpg" data-lightbox="office"><img src="image/office-3.jpg"></a>
+						<a href="image/office-4.jpg" data-lightbox="office"><img src="image/office-4.jpg"></a>
+					</div>
+				</div>
+			</div>
+			<div class="row three-cols">
+				<div class="col-sm-4 col-xs-12">6 лет<span>на рынке</span></div>
+				<div class="col-sm-4 col-xs-12">1000+<span>клиентов по всей России</span></div>
+				<div class="col-sm-4 col-xs-12">1300+<span>выданных займов</span></div>
+			</div>
+			<div class="row our-sert">
+				<div class="col-sm-3 col-xs-6">
+					<a href="image/sert1f.jpg" data-lightbox="cert"><img src="image/sert1.png"></a>
+				</div>
+				<div class="col-sm-3 col-xs-6">
+					<a href="image/sert2f.jpg" data-lightbox="cert"><img src="image/sert2.png"></a>
+				</div>
+				<div class="col-sm-3 col-xs-6">
+					<a href="image/sert3f.jpg" data-lightbox="cert"><img src="image/sert3.png"></a>
+				</div>
+				<div class="col-sm-3 col-xs-6">
+					<a href="image/sert4f.jpg" data-lightbox="cert"><img src="image/sert4.png"></a>
+				</div>
+			</div>
+			<div class="row four-texts">
+				<div class="col-md-6 col-xs-12">
+					<ul>
+						<li>Предлагаем 12 пакетов займов и сбережений для физических и юридических лиц.</li>
+						<li>Действуем в соответствии с Федеральным Законом <br>от 18.07.2000 №190-ФЗ «О кредитной кооперации».</li>
+					</ul>
+				</div>
+				<div class="col-md-6 col-xs-12">
+					<ul>
+						<li>Работаем под контролем Центрального Банка и Росфинмониторинга.</li>
+						<li>Входим в объединение кооперативов <br>РФ НП «СРО КПК «Союзмикрофинанс».</li>
+					</ul>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-xs-12">
+					<div class="sert-footer-title">Интересуют подробности о нас? Звоните!</div>
+					<div class="align-telephone"><a href="tel:+7 812 603-72-35" class="sert-telephone">+7 812 603-72-35</a></div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<section class="reviews" id="reviews" anim="fade">
+		<div class="container">
+			<div class="row">
+				<div class="col-xs-12">
+					<div class="title-review title-size">Отзывы клиентов</div>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-xs-12">
+					<div id="myCarousel" class="carousel slide" data-ride="carousel">
+						<ol class="carousel-indicators">
+						  <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+						  <li data-target="#myCarousel" data-slide-to="1"></li>
+						  <li data-target="#myCarousel" data-slide-to="2"></li>
+						  <li data-target="#myCarousel" data-slide-to="3"></li>
+						  <li data-target="#myCarousel" data-slide-to="4"></li>
+						</ol>
+						<div class="carousel-inner">
+						  <div class="item active">
+							<iframe width="560" height="315" src="https://www.youtube.com/embed/ZF6Rjo7G4KE" frameborder="0" allowfullscreen></iframe>
+						  </div>
+						  <div class="item">
+							<iframe width="560" height="315" src="https://www.youtube.com/embed/olBqcIXvROc" frameborder="0" allowfullscreen></iframe>
+						  </div>
+						  <div class="item">
+							<iframe width="560" height="315" src="https://www.youtube.com/embed/rqcFBlOS9jc" frameborder="0" allowfullscreen></iframe>
+						  </div>
+						  <div class="item">
+							<iframe width="560" height="315" src="https://www.youtube.com/embed/ijyoqvgq43g" frameborder="0" allowfullscreen></iframe>
+						  </div>
+						  <div class="item">
+							<iframe width="560" height="315" src="https://www.youtube.com/embed/W6XdqusbTi4" frameborder="0" allowfullscreen></iframe>
+						  </div>
+						</div>
+						<a class="left carousel-control" href="#myCarousel" data-slide="prev">
+						  <span class="sr-only">Previous</span>
+						</a>
+						<a class="right carousel-control" href="#myCarousel" data-slide="next">
+						  <span class="sr-only">Next</span>
+						</a>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<section class="mass-media" id="mass-media" anim="fade">
+		<div class="container">
+			<div class="row">
+				<div class="col-xs-12">
+					<div class="title-mass-media title-size">Информационные партнеры</div>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-md-3 col-sm-6 col-xs-12 media-png"><img src="image/smi1.png"></div>
+				<div class="col-md-3 col-sm-6 col-xs-12 media-png"><img src="image/smi2.png"></div>
+				<div class="col-md-3 col-sm-6 col-xs-12 media-png"><img src="image/smi3.png"></div>
+				<div class="col-md-3 col-sm-6 col-xs-12 media-png"><img src="image/smi4.png"></div>
+			</div>
+		</div>
+	</section>
+	<section class="faq" id="faq" anim="fade">
+		<div class="container">
+			<div class="row">
+				<div class="col-xs-12">
+					<div class="title-faq title-size">Отвечаем на вопросы</div>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-md-6 col-xs-12">
+					<div class="some-faq">Каким законом регулируется деятельность КПК «Надежное Будущее»?<span>Деятельность кредитных потребительских кооперативов регулируется Федеральным законом от 18.07.2000 №190-ФЗ «О кредитной кооперации».</span>
+					</div>
+					<div class="some-faq">Возможно ли уменьшить проценты <br>по договору займа?<span>В случае если вы являетесь постоянным и добросовестным заемщиком КПК, Вы можете рассчитывать на персональные условия по займу.</span>
+					</div>
+					<div class="some-faq">При заключении договора займа <br>под залог автотранспортного средства автомобиль остается <br>у меня или у КПК?<span>Возможны оба варианта, однако в подавляющем большинстве случаев автомобиль остается у вас.</span>
+					</div>
+				</div>
+				<div class="col-md-6 col-xs-12">
+					<div class="some-faq">Каким именно способом осуществляется регистрация залога автотранспортного средства при заключении договора займа под залог автотранспорта?<span>Государственной регистрации договора залога на автотранспортное средство не требуется (в отличии от договора залога объекта недвижимости). Все необходимые документы оформляются в офисе КПК. После оформления необходимых документов в офисе кооператива, следует посещение кабинета нотариуса, где осуществляется включение информации об автотранспортном средстве в специальный залоговый реестр.</span>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<section class="question" id="question" anim="fade">
+		<div class="container">
+			<div class="row">
+				<div class="col-xs-12">
+					<div class="title-question title-size">У вас остались вопросы?</div>
+					<div class="subtitle-question">Задайте их финансовому консультанту</div>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-md-4 col-xs-12 text-c">
+					<img src="image/manager.jpg">
+					<div class="name-question">Ксения</div>
+					<div class="post-question">Финансовый консультант</div>
+				</div>
+				<div class="col-md-8 col-xs-12 text-c">
+					<div class="form-question">
+						<form action="http://qa.quinque.ru/lead/post.php" method="post">
+							<input type="hidden" name="form_name" value="Вопрос">
+							<input name="profile_name" type="text" placeholder="Ваше имя">
+							<input name="profile_phone" type="tel" placeholder="+7 000 000-00-00" style="margin-left: 14px;">
+							<textarea name="profile_comment" placeholder="Вопрос&hellip;" style="height: 182px;"></textarea>
+							<button type="submit">Задать вопрос</button>
+							<div class="note-terms" style="text-align:left;"><label><input type="checkbox" checked autocomplete="off"> Нажимая на кнопку, я соглашаюсь с условиями</label> <a target="_blank" href="/terms.pdf">политики конфиденциальности</a>.</div>
+						</form>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<section class="map" id="map" anim="fade">
+		<div class="container">
+			<div class="row">
+				<div class="col-xs-12">
+					<div class="title-map title-size">Приходите в наш офис</div>
+					<div class="subtitle-map">Проконсультируем, ответим на вопросы</div>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-xs-12">
+					<ul class="nav nav-tabs" role="tablist">
+						<li role="presentation" class="active"><a href="#peterburg" aria-controls="peterburg" role="tab" data-toggle="tab">Санкт-Петербург</a></li>
+						<li role="presentation"><a href="#vologda" aria-controls="vologda" role="tab" data-toggle="tab">Вологда</a></li>
+						<li role="presentation"><a href="#cherepovec" aria-controls="cherepovec" role="tab" data-toggle="tab">Череповец</a></li>
+						<li role="presentation"><a href="#yaroslavl" aria-controls="yaroslavl" role="tab" data-toggle="tab">Ярославль</a></li>
+						<li role="presentation"><a href="#ivanovo" aria-controls="ivanovo" role="tab" data-toggle="tab">Иваново</a></li>
+						<li role="presentation"><a href="#kostroma" aria-controls="kostroma" role="tab" data-toggle="tab">Кострома</a></li>
+					</ul>
+				</div>
+			</div>
+		</div>
+		<div class="tab-content">
+			<div role="tabpanel" class="tab-pane active" id="peterburg">
+				<div class="yandex-map">
+					<script type="text/javascript" charset="utf-8" async src="https://api-maps.yandex.ru/services/constructor/1.0/js/?um=constructor%3A59e32cfc1d2cf8bcd127507f3974cbcc7be01f6ee1a90b86b08a9982ca1b3530&amp;width=100%25&amp;height=420&amp;lang=ru_RU&amp;scroll=off"></script>
+					<div class="container">
+						<div class="row text-on-map-container">
+							<div class="col-xs-12">
+								<div class="text-on-map">
+									<div class="street">
+										ул. Дыбенко, д. 22, корп. 1<br>
+										ул. Бухарестская, д. 94, корп. 1
+									</div>
+									<a href="tel:+7 812 603-72-35" class="tel-map">+7 812 603-72-35</a>
+									<div class="time-work">По будням с 9 до 19, <br>в субботу с 10 до 15</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div role="tabpanel" class="tab-pane" id="vologda">
+				<div class="yandex-map">
+					<script type="text/javascript" charset="utf-8" async src="https://api-maps.yandex.ru/services/constructor/1.0/js/?um=constructor%3Ac773d05875b8c4ffb58a36f440dfb5eeb6efbbaece9101780e4774e34ae542ea&amp;width=100%25&amp;height=420&amp;lang=ru_RU&amp;scroll=off"></script>
+					<div class="container">
+						<div class="row text-on-map-container">
+							<div class="col-xs-12">
+								<div class="text-on-map">
+									<div class="street">ул. Герцена, д. 14</div>
+									<a href="tel:+7 812 603-72-35" class="tel-map">+7 812 603-72-35</a>
+									<div class="time-work">По будням с 9 до 19, <br>в субботу с 10 до 15</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div role="tabpanel" class="tab-pane" id="cherepovec">
+				<div class="yandex-map">
+					<script type="text/javascript" charset="utf-8" async src="https://api-maps.yandex.ru/services/constructor/1.0/js/?um=constructor%3Ad31cf145c80caaca8531a11eca184fb1917f4b81207854cf730e52a9c63d3573&amp;width=100%25&amp;height=420&amp;lang=ru_RU&amp;scroll=off"></script>
+					<div class="container">
+						<div class="row text-on-map-container">
+							<div class="col-xs-12">
+								<div class="text-on-map">
+									<div class="street">Проспект Победы, 32</div>
+									<a href="tel:+7 812 603-72-35" class="tel-map">+7 812 603-72-35</a>
+									<div class="time-work">По будням с 9 до 19, <br>в субботу с 10 до 15</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div role="tabpanel" class="tab-pane" id="yaroslavl">
+				<div class="yandex-map">
+					<script type="text/javascript" charset="utf-8" async src="https://api-maps.yandex.ru/services/constructor/1.0/js/?um=constructor%3A34113da5fb18ad94a9e11995c8c3e93655b83a8380ca33882245fd61c1e607b5&amp;width=100%25&amp;height=420&amp;lang=ru_RU&amp;scroll=off"></script>
+					<div class="container">
+						<div class="row text-on-map-container">
+							<div class="col-xs-12">
+								<div class="text-on-map">
+									<div class="street">ул. Угличская, д. 8/46</div>
+									<a href="tel:+7 812 603-72-35" class="tel-map">+7 812 603-72-35</a>
+									<div class="time-work">По будням с 9 до 19, <br>в субботу с 10 до 15</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div role="tabpanel" class="tab-pane" id="ivanovo">
+				<div class="yandex-map">
+					<script type="text/javascript" charset="utf-8" async src="https://api-maps.yandex.ru/services/constructor/1.0/js/?um=constructor%3A74a0cc22e9714a60027aaea90128ff5048cb895b877cec7c2af96b32f7325e3a&amp;width=100%25&amp;height=420&amp;lang=ru_RU&amp;scroll=off"></script>
+					<div class="container">
+						<div class="row text-on-map-container">
+							<div class="col-xs-12">
+								<div class="text-on-map">
+									<div class="street">ул. Карла Маркса, д. 42/62</div>
+									<a href="tel:+7 812 603-72-35" class="tel-map">+7 812 603-72-35</a>
+									<div class="time-work">По будням с 9 до 19, <br>в субботу с 10 до 15</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div role="tabpanel" class="tab-pane" id="kostroma">
+				<div class="yandex-map">
+					<script type="text/javascript" charset="utf-8" async src="https://api-maps.yandex.ru/services/constructor/1.0/js/?um=constructor%3Ab4deebcc3456991497172e4381cdd53c10ca08dcb41664ec20844dddb67df5d8&amp;width=100%25&amp;height=420&amp;lang=ru_RU&amp;scroll=off"></script>
+					<div class="container">
+						<div class="row text-on-map-container">
+							<div class="col-xs-12">
+								<div class="text-on-map">
+									<div class="street">ул. Советская, д. 26/1</div>
+									<a href="tel:+7 812 603-72-35" class="tel-map">+7 812 603-72-35</a>
+									<div class="time-work">По будням с 9 до 19, <br>в субботу с 10 до 15</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<footer anim="fade" style="padding-bottom: 0;">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-3 col-xs-12">
+					<img src="image/logo.png" class="logo" alt="">
+				</div>
+				<div class="col-md-7 col-xs-12">
+					<div class="offer">
+						Предложение не является публичной офертой<br>
+						<a href="/terms.pdf" target="_blank">Политика конфиденциальности</a><br>
+						Официальный сайт <a href="http://kpk-nb.ru" target="_blank">kpk-nb.ru</a><br>
+						Разработано в <a href="http://kvin.agency" target="_blank">KVIN.AGENCY</a>
+					</div>
+				</div>
+				<div class="col-md-2 col-xs-12">
+					<div class="telephone"><a href="tel:+7 812 603-72-35">+7 812 603-72-35</a><a class="telephone-head" href="#modal-callback">Заказать звонок</a></div>
+				</div>
+			</div>
+		</div>
+	</footer>
+	<div class="modal fade pg-show-modal" id="modal-callback" tabindex="-1" role="dialog" aria-hidden="true" data-backdrop="true" data-keyboard="true">
+	  <div class="modal-dialog modal-lg">
+		  <div class="modal-content">
+			  <div class="modal-header">
+				  <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+				  <h3 class="modal-title">Обратный звонок</h3>
+			  </div>
+			  <div class="modal-body">
+				  <form action="http://qa.quinque.ru/lead/post.php" method="post">
+					  <input name="form_name" value="Консультация" type="hidden">
+					  <div class="input-container">
+						  <label>КАК ВАС ЗОВУТ?</label>
+						  <input type="text" name="profile_name" value="" placeholder="Имя">
+					  </div>
+					  <div class="input-container">
+						  <label>ТЕЛЕФОН</label>
+						  <input type="tel" name="profile_phone" value="" placeholder="+7 123 456-78-90" required>
+					  </div>
+					  <div class="input-container">
+						  <label>УДОБНОЕ ВРЕМЯ ДЛЯ ЗВОНКА</label>
+						  <input type="text" name="profile_comment" value="" placeholder="Сегодня" style="border-bottom: none;">
+					  </div>
+					  <div class="buttons">
+						  <button type="submit" class="btn btn-block">ОТПРАВИТЬ</button>
+					  </div>
+					  <div class="note-terms"><label><input type="checkbox" checked autocomplete="off"> Нажимая на кнопку, я соглашаюсь с условиями</label> <a target="_blank" href="/terms.pdf">политики конфиденциальности</a>.</div>
+				  </form>
+			  </div>
+		  </div>
+	  </div>
+	</div>
+	
+	<div class="modal fade pg-show-modal" id="modal-calc" tabindex="-1" role="dialog" aria-hidden="true" data-backdrop="true" data-keyboard="true">
+	  <div class="modal-dialog modal-lg">
+		  <div class="modal-content">
+			  <div class="modal-header">
+				  <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+				  <h3 class="modal-title">Оставьте заявку на точный расчёт<br> и получение займа</h3>
+			  </div>
+			  <div class="modal-body">
+				  <form action="http://qa.quinque.ru/lead/post.php" method="post">
+					  <input name="form_name" value="Калькулятор" type="hidden">
+					  <input name="profile_calc" value="" type="hidden">
+					  <div class="input-container">
+						  <label>КАК ВАС ЗОВУТ?</label>
+						  <input type="text" name="profile_name" value="" placeholder="Имя">
+					  </div>
+					  <div class="input-container">
+						  <label>ТЕЛЕФОН</label>
+						  <input type="tel" name="profile_phone" value="" placeholder="+7 123 456-78-90" required>
+					  </div>
+					  <div class="buttons">
+						  <button type="submit" class="btn btn-block">ОТПРАВИТЬ</button>
+					  </div>
+					  <div class="note-terms"><label><input type="checkbox" checked autocomplete="off"> Нажимая на кнопку, я соглашаюсь с условиями</label> <a target="_blank" href="/terms.pdf">политики конфиденциальности</a>.</div>
+				  </form>
+			  </div>
+		  </div>
+	  </div>
+	</div>
+	
+	<!-- <div class="modal fade pg-show-modal" id="modal-success" tabindex="-1" role="dialog" aria-hidden="true" data-backdrop="true" data-keyboard="true">
+	  <div class="modal-dialog modal-lg">
+		  <div class="modal-content">
+			  <div class="modal-header">
+				  <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+				  <h3 class="modal-title">Спасибо! Ваша заявка отправлена!</h3>
+			  </div>
+		  </div>
+	  </div>
+	</div> -->
+	
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/js/bootstrap.min.js"></script>
+	<script src="js/geoip.js"></script>
+	<script src="js/lightbox.js"></script>
+	<script>
+		$(document).ready(function(){
+			$('.nav-tabs a').click(function (e){
+				e.preventDefault();
+				$(this).tab('show');
+			});
+			$('.carousel').carousel({
+				interval: false,
+			});
+		});
+	</script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/noUiSlider/10.0.0/nouislider.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-maskmoney/3.0.2/jquery.maskMoney.min.js"></script>
+	<script src="js/code.js"></script>
+	<script type="text/javascript" src="https://cdn.rawgit.com/MhdAljuboori/6ea3a3fa48248e3a132a/raw/animator.js"></script>
+	<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.0/jquery.waypoints.min.js"></script>
+	<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jQuery-viewport-checker/1.8.7/jquery.viewportchecker.min.js"></script>
+	<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery-scrollTo/1.4.11/jquery.scrollTo.min.js"></script>
+	<script src="js/script.js"></script>
+	<script src="js/calc.js"></script>
+	
+	<!-- Yandex.Metrika counter --> <script type="text/javascript"> (function (d, w, c) { (w[c] = w[c] || []).push(function() { try { w.yaCounter44848444 = new Ya.Metrika({ id:44848444, clickmap:true, trackLinks:true, accurateTrackBounce:true, webvisor:true }); } catch(e) { } }); var n = d.getElementsByTagName("script")[0], s = d.createElement("script"), f = function () { n.parentNode.insertBefore(s, n); }; s.type = "text/javascript"; s.async = true; s.src = "https://mc.yandex.ru/metrika/watch.js"; if (w.opera == "[object Opera]") { d.addEventListener("DOMContentLoaded", f, false); } else { f(); } })(document, window, "yandex_metrika_callbacks"); </script> <noscript><div><img src="https://mc.yandex.ru/watch/44848444" style="position:absolute; left:-9999px;" alt="" /></div></noscript> <!-- /Yandex.Metrika counter -->
+	<!--
+	<script type="text/javascript" src="//api.venyoo.ru/wnew.js?wc=venyoo/default/science&widget_id=5286560599375872"></script>
+	-->
+</body>
+</html>
